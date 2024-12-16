@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(42, 153, 190);
+}
+
+ #logo img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+nav{
+    display: flex;
+    width: 91.2vw;
+    flex-flow: row;
+    align-items: center;
+    
+    
+}
+
+
+nav  ul{
+    display: flex;
+    width: 95vw;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav  a{
+    text-decoration: none;
+    background-color: rgb(42, 153, 190);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+   
+    
+}
+
+nav a:hover{
+    background-image: linear-gradient(to top,rgba(11, 97, 126, 0.733),rgba(0, 0, 0, 0.459));
+    transition: 1s;
+    color: lightblue;
+}
+
+li:hover{
+    transform: scale(.9);
+    transition: 1s;
+}
+
+
+
+
+
+section{
+    display: flex;
+    flex-flow: column;
+    
+}
+
+#banner{
+    background-image: url('https://www.soarquitetura.com.br/wp-content/uploads/2022/03/dicas-para-manter-sua-piscina-limpa-durante-o-ano-todo.jpg');
+    height: 500px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner >h2{
+    text-align: center;
+    padding: 20px; 
+    font-size: 2em;
+    color: white;
+    background-color:rgba(173, 216, 230, 0.5);
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+#banner h2:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+    cursor: default;
+    border-radius: 5px;
+    background-image: linear-gradient(to top,rgba(11, 97, 126, 0.733),rgba(0, 0, 0, 0.459));
+}
+
+button{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:1em;
+    background-color: rgba(11, 97, 126, 0.733);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+button:hover{
+    
+    background-image: linear-gradient(to top,rgba(11, 97, 126, 0.733),rgba(0, 0, 0, 0.459));
+    transform: scale(1.1);
+    text-decoration: underline;
+    transition: 1s;
+    
+    
+}
+
+section p{
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    margin-top:20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: rgba(42, 153, 190, 0.733);
+    color: white;
+    width: 800px;
+    text-shadow: 1px 1px 1px  darkblue;
+    box-shadow: 1px 1px 3px 0px black;
+}
+
+main{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.imagem{
+    height: 370px;
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#limpeza{
+    background-image: url('https://www.cleanipedia.com/images/00d1hxgfwfa6/zZ5STNHfs2YwpSDLjMtB5/ec7b1e33ebc12c3baf6c87babd611a5e/R2V0dHlJbWFnZXMtMTIwNTc4MzUwMS5qcGc/1200w/uma-rede-de-limpeza-de-piscina-dentro-da-%C3%A1gua-ao-lado-da-borda-da-piscina..jpg');
+    
+}
+
+#frasco{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAD9H0cbKup6kgDnxrErYbuvMzO8ccTbcF8w&s');
+
+}
+
+#manut{
+    background-image: url('https://www.klmotoresebombas.com.br/imagens/informacoes/manutencao-bombas-piscina-02.jpg');
+
+}
+
+.fundo{
+    background-color: lightblue;
+    padding: 15px;
+    max-width: 320px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.fundo > h2{
+    background-color: rgba(42, 153, 190, 0.733);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.fundo p{
+    padding:10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#final{
+    background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p1/28582865-ondulacoes-em-a-azul-piscina-agua-brilhante-ondas-do-limpar-limpo-piscina-agua-gerado-ai-foto.jpg');
+    height: 400px;
+    width: 99vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+}
+
+#final h2{
+    align-self: center;
+    font-size: 2em;
+    color: rgb(238, 238, 240);
+    background-color: rgba(9, 62, 236, 0.452);
+    max-width: 600px;
+    margin: auto;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px darkblue;
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#burger{
+    display: none;
+
+}
