@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: "Montserrat", sans-serif;
+        }
+
+
+        body{
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+
+        #inicio{
+            background-image: url(https://blog.meritocomercial.com.br/wp-content/uploads/2022/09/clark-tai-nq18MYhxdGs-unsplash-scaled.jpg.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            height: 400px;
+            width: 100%;
+            
+            
+        }
+
+        button{
+            width: 200px;
+            margin: auto;
+            background-color: rgba(8, 11, 44, 0.623);
+            text-decoration: none;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+
+        button:hover{
+            background-color: rgba(128, 128, 128, 0.507);
+            transform: scale(1.1);
+            transition: 1s;
+            color: darkblue;
+        }
+
+        #inicio h1{
+            padding: 20px;
+            color: white;
+            text-shadow: 1px 1px black;
+            width: 300px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 1px 1px 5px black;
+        }
+
+        #inicio p{
+            max-width: 550px;
+            margin: auto;
+            margin-bottom: 100px;
+            margin-top: 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            text-shadow: 1px 1px  darkblue;
+            box-shadow: 1px 1px 5px black;
+        }
+
+
+        main{
+            height: 750px;
+            width: 100vw;
+            display:flex;
+            justify-content: center;
+            gap:20px;
+            overflow-x: hidden;
+            background-image: linear-gradient(to bottom, #0277bd, #81d4fa, #c1e3f6, #a5d6a7);
+            
+        }
+
+        main h2{
+            color:rgba(173, 216, 230, 0.945);
+            text-align: center;
+            width: 200px;
+            text-shadow: 1px 1px 1px darkblue;
+            margin-top: 10px;
+            
+        }
+
+        main p{
+            text-align: center;
+            text-shadow: 1px 1px 1px darkblue;
+            background-color: lightblue;
+            padding: 5px;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            max-width: 100%;
+            box-shadow: 1px 1px 5px black;
+        }
+
+
+        .imagens{
+            margin: 25px;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+            
+            
+        }
+
+        #col1{
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            padding: 20px;
+            align-items: center;
+            margin: 20px;
+            background-color: white;
+           
+            
+
+        }
+
+        #col2{
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            padding: 20px;
+            align-items: center;
+            margin: 20px;
+            background-color: white;
+            
+
+        }
+
+        #final{
+            width: 40%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+
+        #img1{
+            background-image: url('https://cdn-icons-png.flaticon.com/512/3281/3281301.png');
+            width: 200px;
+            height: 200px;
+            background-size: contain;
+            
+        }
+
+        #img2{
+            background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/2212368-icone-de-linha-para-experiencia-vetor.jpg');
+            width: 200px;
+            height: 200px;
+            background-size: contain;
+        }
+
+        #img3{
+            background-image: url('https://cdn-icons-png.flaticon.com/512/5935/5935761.png');
+            width: 200px;
+            height: 200px;
+            background-size: contain;
+        }
+
+        #img4{
+            background-image: url('https://cdn-icons-png.flaticon.com/512/6333/6333881.png');
+            width: 200px;
+            height: 200px;
+            background-size: contain;
+        }
+        
+        #imglado{
+            background-image: url('https://poolrescue.com.br/wp-content/uploads/2021/08/post_thumbnail-a94581dcf05beb473afbac043941a3b0-1200x800.jpeg');
+            width: 550px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: right;
+        }
+
+        footer{
+            padding: 10px;
+            text-align: center;
+            background-color: lightblue;
+            width: 100%;
+            color: white;
+            text-shadow: 1px 1px 1px black;
+            font-weight: bold;
+        }
+
+        
